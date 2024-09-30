@@ -1,0 +1,16 @@
+# Sistema de Login com cadastro
+
+### App Flet que apresenta uma tela de Login com Senha
+
+#### o aplicativo faz uma autenticação no Banco (no caso no firebase)
+
+`https://firebase.google.com/?hl=pt-br`
+
+## inicializa o firebase na autenticação
+
+### `firebase = pyrebase.initialize_app(firebaseConfig)`
+### `auth = firebase.auth()`
+
+## Foi feito a instalação da biblioteca
+### `pip install pyrebase4`
+
